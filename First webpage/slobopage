@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Slobodan Vlaic | Portfolio</title>
+</head>
+
+<body>
+  <section id="main">
+    <div class="container">
+      <div class="atf">
+        <h1>Slobodan Vlaic</h1>
+        <h3>Front End Developer</h3>
+        <a href="assets/Slobodan UI CV.pdf" target="_blank" class="btn btn-main"><i class="fa fa-download"></i> My
+          Resume</a>
+        <div class="links">
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/slobodan-vlaic-098603163/" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/slobiiv" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:@slobiiv@gmail.com" target="_blank">
+                <i class="far fa-envelope"></i>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>RECENTLY COMPLETED PROJECTS</h2>
+      <div class="border-line"></div>
+      <div class="items">
+        <div class="item">
+          <div class="item-image">
+            <img src="img/projects/item2.png" alt="project2">
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category text-align">Web Design</p>
+              <h2 class="item-text-title">HTML5, CSS3, JavaScript</h2>
+              <a href="https://slobiiv.github.io/" target="_blank">visit site</a>
+              <a href="https://github.com/slobiiv/slobiiv.github.io" target="_blank">view code</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image">
+            <img src="img/projects/item1.jpg" alt="project1">
+          </div>
+          <div class="item-text">
+            <div class="item-text-wrap">
+              <p class="item-text-category text-align ">Website Design</p>
+              <h2 class="item-text-title">HTML, CSS</h2>
+              <a href="https://www.drdeni.com/" target="_blank">visit site</a>
+              <a href="https://github.com/slobiiv/drDeniPage_Bootstrap" target="_blank">view code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="main-footer">
+    <p>copyright <span id="year"></span> slobodan vlaic</p>
+  </footer>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
